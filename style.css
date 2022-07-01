@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300&display=swap');
+
+body { 
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+
+nav .profile img {
+    margin-top: 10px;
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+nav .profile h1 {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li:hover {
+    border-bottom-color: #000;
+}
+
+.page-content {
+    margin: 4%;
+}
+
+.page-content header {
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.page-content header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2vw;
+    
+}
+
+.page-content header p {
+    line-height: 25px;
+    color: grey;
+}
+
+.page-content header button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.page-content header button:hover {
+    color: gray;
+    border-bottom-color: #000;
+}
+
+.page-content .presentation-image {
+    margin-top: 5%;
+}
+
+.page-content .presentation-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-content .projects-section {
+    margin-top: 1%;
+    margin-bottom: 9%;
+}
+
+.page-content .projects-section h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    font-size: 2vw;
+    
+}
+
+.page-content .projects-section .projects {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.page-content .projects-section .projects .project {
+    margin-right: 20px;
+    max-width: 195px;
+}
+
+.page-content .projects-section .projects .project h4 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.page-content .projects-section .projects .project .description {
+    font-size: 15px;
+}
+
+.page-content .projects-section .projects .project .dates {
+    font-size: 18px;
+    color: gray;
+}
+
+.page-content {
+    position: relative;
+    height: max-content;
+}
+
+footer {
+    padding: 3px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    
+      
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: center;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .page-content header {
+        margin-top: 10%;
+        max-width: 100%;
+        
+    }
+
+    .page-content .projects-section {
+        margin: 15%;
+    }
+
+    .page-content .projects-section h1 {
+        font-size: 1.5em;
+    }
+
+    .page-content .projects-section .projects .project {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .form .corps-formulaire .droite {
+        margin-left: 0px;
+    }
+} 
+
+.formulaire {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-weight: bold;
+}
+
+#contenerform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(40%);
+
+}
+
+form {
+    background-color: beige;
+    padding: 40px;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+form h1 {
+    font-size: 20px;
+}
+
+form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #747cdf;
+}
+    
+form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+form .corps-formulaire .groupe {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .gauche {
+    transform: translateX(50%);
+    
+}
+
+form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid grey;
+    outline-color: #747cdf;
+    border-radius: 5px;
+    
+}
+
+form .corps-formulaire .gauche .groupe i {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #747cdf;
+}
+
+form .corps-formulaire .droite {
+    margin-left: 40px;
+    width: 250px;
+    
+}
+
+form .corps-formulaire .droite .groupe {
+    height: 100%;
+    transform: translateX(80%);
+}
+
+form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid #747cdf;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 73%;
+}
+
+form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form .pied-formulaire button:hover {
+    transform: scale(1.05);
+}
+
+
+.cvcv {
+    margin-top: 10px;
+    background-color: #747cdf;
+    color: rgb(246, 245, 245);
+    font-size: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transform: translateX(50%);
+}
