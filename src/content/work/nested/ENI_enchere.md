@@ -1,14 +1,13 @@
 ---
-title: Bloom Box
-publishDate: 2019-12-01 00:00:00
-img: /assets/stock-2.jpg
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+title: ENI Enchères
+publishDate: 2020-03-04 00:00:00
+img: /assets/logo-ENI-enchere.png
+img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Développement d'une plateforme d'enchères en ligne.
 tags:
   - Dev
-  - Branding
+  - Pair programming
   - Backend
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: Markdown Mystery Tour
+title: R.E.E.L
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img: /assets/UniversitéRennes2.jpg
+img_alt: Logo Université Rennes 2
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Création d'une plateforme réservée au personnel de l'établissement pour référencer toutes les pièces de l'Université Rennes 2.
 tags:
-  - Design
   - Dev
+  - Backend
   - User Testing
 ---
 
