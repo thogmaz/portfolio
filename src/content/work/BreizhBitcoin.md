@@ -4,7 +4,7 @@ publishDate: 2019-10-02 00:00:00
 img: /assets/BzhBtc.png
 img_alt: Logo Breizh Bitcoin
 description: |
-  Création d'un site internet pour l'association <a href="https://breizhbitcoin.com//">Breizh Bitcoin</a>
+  Création d'un site internet pour l'association Breizh Bitcoin
 tags:
   - Design
   - Pair programming
