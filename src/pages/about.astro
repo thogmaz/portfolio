@@ -23,30 +23,63 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<h2 class="section-title">Mon parcours</h2>
 				<div class="content">
-					<p>Après 11 années en restauration, j’ai décidé de m’engager dans une démarche de reconversion professionnelle.
+					<p>
+						Après 11 années en restauration, j’ai décidé de m’engager dans une démarche de reconversion professionnelle.
 					</p>
-					<p>Passionné par l'informatique et les nouvelles technologies, je souhaitais trouver un secteur qui correspond à mes valeurs. Après m'être auto formé sur des sites comme OpenClassRoom ou Udemy, j’ai intégré la formation « Développeur Web et Web Mobile » à l’ENI Ecole informatique de Rennes.
+
+					<p>
+						Passionné par l'informatique et les nouvelles technologies, je souhaitais trouver un secteur qui correspond à mes valeurs. Après m'être auto-formé sur des plateformes comme OpenClassRoom ou Udemy, j’ai intégré la formation « Développeur Web et Web Mobile » à l’ENI École informatique de Rennes.
 					</p>
-					<p>Durant cette formation, j’ai eu l’opportunité de faire un stage de 2 mois au sein de la DSI de l’Université de Rennes 2. Cette expérience s’est avérée plus que réussie car elle m'a permis d'obtenir le titre de "Développeur Web et Web Mobile".
+
+					<p>
+						Durant cette formation, j’ai eu l’opportunité de faire un stage de 2 mois au sein de la DSI de l’Université Rennes 2. Cette expérience s’est avérée très concluante et m’a permis d’obtenir le titre de "Développeur Web et Web Mobile".
+					</p>
+
+					<p>
+						Depuis <b>2024</b>, j’ai rejoint <b>Kerbi</b> en tant que développeur, où je travaille principalement sur la plateforme <b>Odoo</b>, dans un contexte de projets métiers concrets.
+					</p>
+
+					<p>J’interviens notamment sur :</p>
+					<ul>
+						<li>le développement et la personnalisation de modules Odoo,</li>
+						<li>l’adaptation de fonctionnalités existantes aux besoins spécifiques des utilisateurs,</li>
+						<li>la création et modification de vues (formulaires, listes, rapports PDF),</li>
+						<li>la gestion de flux métiers (ventes, achats, stock, facturation),</li>
+						<li>la maintenance et l’évolution d’applications existantes,</li>
+						<li>l’analyse fonctionnelle et la traduction des besoins métiers en solutions techniques.</li>
+					</ul>
+
+					<p>
+						Ces missions m’ont permis de développer une solide compréhension d’Odoo, aussi bien sur les aspects techniques que fonctionnels, et de travailler en étroite collaboration avec les équipes internes et les utilisateurs finaux.
+					</p>
+
+					<p>
+						Cette expérience renforce au quotidien mon autonomie, ma rigueur, ainsi que ma capacité à proposer des solutions fiables, maintenables et adaptées aux contraintes métier.
 					</p>
 				</div>
 			</section>
+
 			<section>
 				<h2 class="section-title">Diplômes & formations</h2>
 				<div class="content">
 					<p><b>Développeur Web et Web Mobile</b></p>
-					<p>ENI Ecole informatique | 2022/2023</p>
+					<p>ENI École Informatique – Rennes | 2022 – 2023</p>
 					<br>
-					<p><b>Get Into Tech - Découvrir les métiers de la Tech.</b></p>
+					<p><b>Get Into Tech – Découverte des métiers de la Tech</b></p>
 					<p>INCO Academy | 2022</p>
 					<br>
-					<p><b>Baccalauréat ES</b></p>
-					<p>Lycée L'Institution - Saint Malo | 2009 - 2010</b></p>
+					<p><b>Baccalauréat Économique et Social (ES)</b></p>
+					<p>Lycée L’Institution – Saint-Malo | 2009 – 2010</p>
 				</div>
 			</section>
+
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Compétences</h2>
 				<div class="content">
+					<p><b>Tech / Métier</b></p>
+					<p>Développement et personnalisation Odoo | Analyse fonctionnelle & compréhension métier</p>
+					<br>
+					<p><b>Soft skills</b></p>
 					<p>Travail en équipe | Autonomie | Gestion du stress | Adaptabilité</p>
 				</div>
 			</section>
@@ -84,6 +117,14 @@ import Hero from '../components/Hero.astro';
 
 	.content {
 		grid-column: 2 / 4;
+	}
+
+	/* ✅ petit ajout pour rendre la liste jolie sans casser ton thème */
+	.content ul {
+		margin: 0.75rem 0 1rem 1.25rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
 	}
 
 	.content :global(a) {
