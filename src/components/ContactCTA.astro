@@ -4,20 +4,21 @@ import Icon from './Icon.astro';
 ---
 
 <aside>
-	<h2>Besoin d'en savoir un peu plus?</h2>
-	<CallToAction href="mailto:thomas.fanouillere@hotmail.fr">
-		Me contacter
-		<Icon icon="paper-plane-tilt" size="1.2em" />
-	</CallToAction>
+	<h2>Besoin d'en savoir plus ?</h2>
+
+	<div className="cta-group">
+		<CallToAction href="mailto:thomas.fanouillere@hotmail.fr">
+			Me contacter
+			<Icon icon="paper-plane-tilt" size="1.2em" />
+		</CallToAction>
+
+		<CallToAction href="/assets/THOMAS_FANOUILLERE2.pdf">
+			Télécharger mon CV
+			<Icon icon="paper-plane-tilt" size="1.2em" />
+		</CallToAction>
+	</div>
 </aside>
 
-<aside>
-	<h2>CV</h2>
-	<CallToAction href="/assets/THOMAS_FANOUILLERE2.pdf">
-		Télécharger
-		<Icon icon="paper-plane-tilt" size="1.2em" />
-	</CallToAction>
-</aside>
 
 <style>
 	aside {
