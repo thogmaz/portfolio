@@ -1,7 +1,7 @@
 ---
 title: Chess4sats
 publishDate: 2025-11-02 00:00:00
-img: /assets/chess4sats.png
+img: /assets/chess4sats_512.png
 img_alt: Logo Chess4sats
 description: |
   Application web fullstack de jeu d’échecs en ligne intégrant une authentification sécurisée,
